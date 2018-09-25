@@ -1,4 +1,4 @@
-# Myelin Water Fraction Estimation using DESS MRI and PERK
+# Myelin Water Fraction Estimation using DESS and PERK
 
 This is the project directory for code and data related to the paper:
 

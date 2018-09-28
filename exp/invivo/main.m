@@ -17,14 +17,11 @@ if ~exist('irtdir', 'var')
 end
 
 % mapping
-addpath('../../../../../relax/mat/map/b1');
-addpath('../../../../../relax/mat/map/sense');
-addpath('../../../../../relax/mat/map/t1-t2');
-addpath('../../../../../relax/mat/model/spgr');
-addpath('../../../map');
-addpath('../../../model/mese');
-addpath('../../../model/dess');
-addpath('../../../etc');
+addpath('../../map/dess-spgr');
+addpath('../../map/mese');
+addpath('../../model/mese');
+addpath('../../model/dess');
+addpath('../../etc');
 
 % header options
 header.sv   = 0;                          % save coil-comb, param reconstructions
